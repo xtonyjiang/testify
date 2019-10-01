@@ -110,7 +110,7 @@ See [t.FailNow](http://golang.org/pkg/testing/#T.FailNow) for details.
 
 The `mock` package provides a mechanism for easily writing mock objects that can be used in place of real objects when writing test code.
 
-An example test function that tests a piece of code that relies on an external object `testObj`, can setup expectations (testify) and assert that they indeed happened:
+An example test function that tests a piece of code that relies on an external object `testObj` can setup expectations (testify) and assert that they indeed happened:
 
 ```go
 package yours

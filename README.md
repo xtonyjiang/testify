@@ -66,7 +66,7 @@ func TestSomething(t *testing.T) {
   * Every assert func takes the `testing.T` object as the first argument.  This is how it writes the errors out through the normal `go test` capabilities.
   * Every assert func returns a bool indicating whether the assertion was successful or not, this is useful for if you want to go on making further assertions under certain conditions.
 
-if you assert many times, use the below:
+If you assert many times, use the below:
 
 ```go
 package yours
